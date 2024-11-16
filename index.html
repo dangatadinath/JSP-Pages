@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submission</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div style="text-align:center">
+    <h2 style="color:blue">User Information Form</h2><hr>
+
+    <form action="insert.jsp" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="display.jsp" >View Submitted Data</a>
+    </div>
+</body>
+</html>
